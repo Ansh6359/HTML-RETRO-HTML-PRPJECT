@@ -1,0 +1,106 @@
+/* given code styles the title of the office section, including font size, color, center alignment, and bottom margin */
+.office-title {
+  font-size: 36px;
+  color: #0066cc;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* for used code give code styles the container of the office information, including maximum width, center alignment, padding, border, and border radius */
+.office-info {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* This block of code styles the address, phone, and fax information within the office section, including font size, line height, and bottom margin */
+.office-address,
+.office-phone,
+.office-fax {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+
+.office-social {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+/* link color */
+.office-social a {
+  color: #0066cc;
+}
+
+/* This block of code styles the thank you message at the end of the form, including font size, line height, top margin, and center alignment */
+.office-thanks {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* all paragraphs within the container, including font size, line height, and bottom margin */
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+/* This block of code styles all links, including link color */
+a {
+  color: #0066cc;
+}
+
+/* This block of code styles the container of the form, including maximum width, center alignment, and padding */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/*  the form, including bottom margin */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* font size, font weight, display, and bottom margin */
+label {
+  font-size: 18px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* This block of code styles text input, email input, and text areas within the form, including width, padding, font size, border, border radius, and bottom margin */
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+/* styles the text area within the form, including height */
+textarea {
+  height: 200px;
+}
+
+/* submit button within the form, including background color, font color, padding, font size, border, border radius, and cursor */
+button[type="submit"] {
+  background-color: #0066cc;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
