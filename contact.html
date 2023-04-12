@@ -1,0 +1,71 @@
+<!--DOCTYPE declaration HTML version-->
+<!DOCTYPE html>
+<!--HTML document starts here-->
+<html lang="en">
+
+<head>
+  <!--Meta tags defining character set, compatibility, viewport, and robot instructions-->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <!--Title of the document-->
+  <title>Contact</title>
+  <!--Link to the CSS file-->
+  <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+  <!--Header with the title of the page-->
+  <h1 class="office-title">Main Office</h1>
+  <!--Container for the contact information-->
+  <div class="office-info">
+    <!--Paragraphs for the address, phone number, and fax number-->
+    <p class="office-address">01 Barrie, Ontario</p>
+    <p class="office-phone">Phone: 1-123-456-7891</p>
+    <p class="office-fax">Fax: 587-545-525</p>
+    <!--Paragraphs for the social media links-->
+    <p class="office-social">
+      Facebook: <a href="https://www.facebook.com/machintoshcominc">machintoshcominc</a>
+    </p>
+    <p class="office-social">
+      Instagram: <a href="https://www.instagram.com/maachininc/">maachininc</a>
+    </p>
+    <!--Paragraph thanking the user-->
+    <p class="office-thanks">Thank you!</p>
+  </div>
+  <!--Container for the contact form-->
+  <div class="container">
+    <!--Form to submit user's information-->
+    <form action="#" method="POST">
+      <!--Header for the form-->
+      <h1>Contact Us</h1>
+      <!--Form group for name input-->
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+      </div>
+      <!--Form group for email input-->
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      </div>
+      <!--Form group for subject input-->
+      <div class="form-group">
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" placeholder="Enter the subject" required>
+      </div>
+      <!--Form group for message input-->
+      <div class="form-group">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+      </div>
+      <!--Form group for submit button-->
+      <div class="form-group">
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>
